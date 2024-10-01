@@ -1,0 +1,57 @@
+.centrar { /* Para centrar los encabezados */
+    text-align: center;
+}
+
+form {  /* Contiene los datos */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Para alinear cada label con su input */
+div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    width: 150px; /* Ajusta este ancho según lo necesites */
+    font-weight: bold;
+}
+
+/* Para asegurar que los inputs ocupen el espacio restante */
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="date"], 
+input[type="file"], 
+input[type="number"], 
+textarea, 
+select {
+    flex: 1;
+    padding: 8px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
