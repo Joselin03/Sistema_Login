@@ -31,7 +31,7 @@ input[type="date"],
 input[type="file"], 
 input[type="number"], 
 textarea, 
-select {
+select {  /* Para los roles */
     flex: 1;
     padding: 8px;
     margin-left: 10px;
@@ -51,7 +51,13 @@ input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-textarea {
+textarea { /* Para las observaciones */
     height: 100px;
     resize: vertical;
 }
+
+input[type="checkbox"] {
+    transform: scale(2); /* Cambia el valor según el tamaño deseado */
+    margin-left: 20px; /* Espacio entre el checkbox y la etiqueta */
+}   
+
